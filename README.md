@@ -7,7 +7,7 @@
   <h5>Authenticate : localhost:8000/api/authenticate <br>
     <p>If It's your first time follow the response steps mentioned in json which is being returned or watch the above demo video .
   <h5>Send Mail : localhost:8000/api/sendMail <br>
-    <p>We send the mail info as form so go to body then x-www-form-urlencoded and use keys as
+    <p>We send the mail info as form data so in postman goto body then x-www-form-urlencoded and use below keys to map the data
     <ul>
       <li>to
         <li>subject
