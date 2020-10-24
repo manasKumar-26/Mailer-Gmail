@@ -72,7 +72,7 @@ module.exports.verifyToken = (req, res) => {
         if (err) return console.error(err);
         currentUserAuth = oAuth2Client;
         return res.status(200).json({
-          Message: "Successfully Authenticated",
+          Message: "Successfully Authenticated Please Sign In Again",
         });
       });
     });
